@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+click = "==7.0"
+itsdangerous = "==1.1.0"
+jinja2 = "==2.10.1"
+lottus = {git = "https://github.com/benchambule/lottus.git",ref = "master"}
+markupsafe = "==1.1.1"
+Flask = "==1.0.3"
+Werkzeug = "==0.15.4"
+
+[requires]
+python_version = "3.7"
