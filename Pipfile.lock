@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4cf73cde3a99ce7625e9c5dab2665a5c4bd9e1a71b34694beaa124a4eb2e1305"
+            "sha256": "32a0d09b079ea3a3f358cde02c49272b8bcb7e87fcb4db985a7f579069a3d21b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -49,8 +49,9 @@
             "version": "==2.10.1"
         },
         "lottus": {
+            "editable": true,
             "git": "https://github.com/benchambule/lottus.git",
-            "ref": "680a68639a4324e03ca6c5909b8ef5d12c76eaea"
+            "ref": "80e20d6029795a5e4321d7cea883e3d5e9904526"
         },
         "markupsafe": {
             "hashes": [

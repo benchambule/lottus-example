@@ -1,27 +1,14 @@
 {
-    "INITIAL": {
-      "name": "INITIAL",
-      "title": "Ben Chambule's USSD - CV",
-      "message": "Please select your languange of choice",
-      "options": [
-        {"option": "1", "display": "English", "menu": "ENGLISH", "active": true},
-        {"option": "2", "display": "Portuguese", "menu": "PORTUGUESE", "active": true}
-      ],
-      "type": "FORM",
-      "auto_process": true,
-      "active": true
-    },
-  
     "ENGLISH": {
       "name": "ENGLISH",
-      "title": "ENGLISH Menu",
+      "title": "ENGLISH window",
       "message": "Please select one of the options",
       "options": [
-        {"option": "1", "display": "Basic information", "menu": "BASIC_INFO_EN", "active": true},
-        {"option": "2", "display": "Skills", "menu": "SKILLS_EN", "active": true},
-        {"option": "3", "display": "Contact", "menu": "CONTACT_EN", "active": true},
-        {"option": "4", "display": "Academic Formation", "menu": "ACADEMIC_EN", "active": true},
-        {"option": "5", "display": "Change language", "menu": "INITIAL", "active": true}
+        {"option": "1", "display": "Basic information", "window": "BASIC_INFO_EN", "active": true},
+        {"option": "2", "display": "Skills", "window": "SKILLS_EN", "active": true},
+        {"option": "3", "display": "Contact", "window": "CONTACT_EN", "active": true},
+        {"option": "4", "display": "Academic Formation", "window": "ACADEMIC_EN", "active": true},
+        {"option": "5", "display": "Change language", "window": "INITIAL", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -30,14 +17,14 @@
   
     "PORTUGUESE": {
       "name": "PORTUGUESE",
-      "title": "Menu em Portuges",
+      "title": "window em Portuges",
       "message": "Por favor seleccione uma das opcoes",
       "options": [
-        {"option": "1", "display": "Dados pessoais", "menu": "BASIC_INFO_PT", "active": true},
-        {"option": "2", "display": "Habilidades", "menu": "SKILLS_PT", "active": true},
-        {"option": "3", "display": "Contacto", "menu": "CONTACT_PT", "active": true},
-        {"option": "4", "display": "Formacao Academica", "menu": "ACADEMIC_PT", "active": true},
-        {"option": "5", "display": "Mudar idioma", "menu": "INITIAL", "active": true}
+        {"option": "1", "display": "Dados pessoais", "window": "BASIC_INFO_PT", "active": true},
+        {"option": "2", "display": "Habilidades", "window": "SKILLS_PT", "active": true},
+        {"option": "3", "display": "Contacto", "window": "CONTACT_PT", "active": true},
+        {"option": "4", "display": "Formacao Academica", "window": "ACADEMIC_PT", "active": true},
+        {"option": "5", "display": "Mudar idioma", "window": "INITIAL", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -49,7 +36,7 @@
       "title": "Basic information",
       "message": "Name: Benjamim Chambule\nProfession: Software Developer",
       "options": [
-        {"option": "0", "display": "Back", "menu": "ENGLISH", "active": true}
+        {"option": "0", "display": "Back", "window": "ENGLISH", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -61,7 +48,7 @@
       "title": "Informacao Basica",
       "message": "Nome: Benjamim Chambule\nProfissao: Desenvolvedor de Software",
       "options": [
-        {"option": "0", "display": "Voltar", "menu": "ENGLISH", "active": true}
+        {"option": "0", "display": "Voltar", "window": "ENGLISH", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -73,7 +60,7 @@
       "title": "Skills",
       "message": "Name: Benjamim Chambule\nProfession: Software Developer",
       "options": [
-        {"option": "0", "display": "Back", "menu": "ENGLISH", "active": true}
+        {"option": "0", "display": "Back", "window": "ENGLISH", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -85,7 +72,7 @@
       "title": "Habilidades",
       "message": "Nome: Benjamim Chambule\nProfissao: Desenvolvedor de Software",
       "options": [
-        {"option": "0", "display": "Voltar", "menu": "PORTUGUESE", "active": true}
+        {"option": "0", "display": "Voltar", "window": "PORTUGUESE", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -97,7 +84,7 @@
       "title": "Contact",
       "message": "Email: benchambule@gmail.com\nTelegram: http://t.me/benchambule\nGitHub: http://github.com/benchambule",
       "options": [
-        {"option": "0", "display": "Back", "menu": "ENGLISH", "active": true}
+        {"option": "0", "display": "Back", "window": "ENGLISH", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -109,7 +96,7 @@
       "title": "Contacto",
       "message": "Email: benchambule@gmail.com\nTelegram: http://t.me/benchambule\nGitHub: http://github.com/benchambule",
       "options": [
-        {"option": "0", "display": "Back", "menu": "PORTUGUESE", "active": true}
+        {"option": "0", "display": "Back", "window": "PORTUGUESE", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -121,7 +108,7 @@
       "title": "Academic Formation",
       "message": "Name: Benjamim Chambule\nProfession: Software Developer",
       "options": [
-        {"option": "0", "display": "Back", "menu": "ENGLISH", "active": true}
+        {"option": "0", "display": "Back", "window": "ENGLISH", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
@@ -133,7 +120,7 @@
       "title": "Formacao academica",
       "message": "Nome: Benjamim Chambule\nProfissao: Desenvolvedor de Software",
       "options": [
-        {"option": "0", "display": "Voltar", "menu": "PORTUGUESE", "active": true}
+        {"option": "0", "display": "Voltar", "window": "PORTUGUESE", "active": true}
       ],
       "type": "FORM",
       "auto_process": true,
