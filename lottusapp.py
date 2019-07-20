@@ -45,12 +45,12 @@ class InMemorySessionManager(lottus.SessionManager):
     def save(self, session):
         self._sessions.append(session)
 
-# class InMemoryWindowCache(lottus.WindowCache):
-#     def __init__(self):
-#         self.windows = {}
+class InMemoryWindowCache(lottus.WindowCache):
+    def __init__(self):
+        self.windows = {}
 
-#     def get(self, window_name, session_nr=None):
-#         return self.windows[window_name] if window_name in self.windows else None
+    def get(self, window_name, session_nr=None):
+        return self.windows[window_name] if window_name in self.windows else None
 
-#     def cache(self, window, session_nr=None):
-#         self.windows[window['name']] = window
+    def cache(self, window, session_nr=None):
+        self.windows[window['name']] = window

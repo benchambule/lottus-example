@@ -14,7 +14,7 @@ def ussd_json_api():
     print(req_dict)
 
     resp = lottus_app.process_request(req_dict)
-    resp = lottus.create_window_response(resp)
+    resp = lottus.window_response(resp)
     print(resp)
 
     return Response(json.dumps(resp), status=200, mimetype='application/json')

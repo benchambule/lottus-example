@@ -51,7 +51,7 @@
         "lottus": {
             "editable": true,
             "git": "https://github.com/benchambule/lottus.git",
-            "ref": "80e20d6029795a5e4321d7cea883e3d5e9904526"
+            "ref": "7da2377754c1ba3222f59b4324e0b54f8761d14c"
         },
         "markupsafe": {
             "hashes": [
