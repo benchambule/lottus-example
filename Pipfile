@@ -4,15 +4,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+httpie = "*"
 
 [packages]
 click = "==7.0"
 itsdangerous = "==1.1.0"
-jinja2 = "==2.10.1"
-markupsafe = "==1.1.1"
 Flask = "==1.0.3"
 Werkzeug = "==0.15.4"
 lottus = {editable = true,git = "https://github.com/benchambule/lottus.git",ref = "master"}
+Jinja2 = "==2.10.1"
+MarkupSafe = "==1.1.1"
 
 [requires]
 python_version = "3.7"
